@@ -1,0 +1,206 @@
+@media (max-width: 1356px) {
+    .services-box,
+    .swiper-box_mobile {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1150px) {
+    .about__img {
+        display: none;
+    }
+
+    .about__inner {
+        gap: 0;
+    }
+}
+
+@media (max-width: 908px) {
+    .services-box,
+    .swiper-box_mobile {
+        padding: 30px 32px;
+    }
+
+    .services-item__content {
+        max-width: 272px;
+    }
+}
+
+@media (max-width: 834px) {
+    .subtitle {
+        font-size: 24px;
+    }
+
+    .services,
+    .about,
+    .lawyers,
+    .reviews,
+    .materials {
+        padding: 60px 0;
+    }
+
+    .footer__descr {
+        display: none;
+    }
+
+    .footer__inner_top {
+        padding: 60px 0 24px;
+    }
+}
+
+@media (max-width: 796px) {
+    .services-box {
+        display: none;
+    }
+
+    .services-item__content {
+        max-width: auto;
+    }
+
+    .swiper-box_mobile {
+        display: block;
+        max-width: auto;
+    }
+}
+
+@media (max-width: 658px) {
+    .title,
+    .title span,
+    .promo__desription {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 525px) {
+    .footer__inner {
+        flex-direction: column;
+        gap: 8px 0;
+    }
+
+    .footer__inner_middle {
+        gap: 45px 0;
+    }
+}
+
+@media (max-width: 517px) {
+    .reviews__button-box {
+        display: none;
+    }
+}
+
+@media (max-width: 502px) {
+    .about__btn-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px 0;
+    }
+}
+
+@media (max-width: 461px) {
+    .header__mail {
+        display: none;
+    }
+}
+
+@media (max-width: 399px) {
+    .reviews__btn-box {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 390px) {
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .services,
+    .about,
+    .lawyers,
+    .reviews,
+    .materials {
+        padding: 40px 0;
+    }
+
+    .about__text {
+        font-size: 14px;
+    }
+
+    .footer__inner_top {
+        padding: 40px 0 24px;
+    }
+}
+
+@media (max-width: 379px) {
+    .title,
+    .title span,
+    .promo__desription {
+        font-size: 1.2em;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 355px) {
+    .logo {
+        width: 250px;
+    }
+}
+
+@media (max-width: 332px) {
+    .lawyers__card-item {
+        width: 220px;
+    }
+}
+
+@media (max-width: 281px) {
+    .header-top {
+        display: none;
+    }
+
+    .logo {
+        width: 200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav__list {
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        gap: 24px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 50;
+        overflow-y: auto;
+        background-color: #222;
+        padding: 50px 26px;
+        animation: burgerAnumation .3s;
+    }
+
+    .open {
+        display: flex !important;
+    }
+
+    .burger-menu.active {
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        z-index: 50;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+}
+
+@keyframes burgerAnumation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+a {
+  display: block;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+img {
+  display: block;
+}
